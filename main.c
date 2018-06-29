@@ -16,31 +16,26 @@ int main(const unsigned int argc, const char **argv)
 
     FILE *file = fopen(concat(localGit, "logs/refs/heads/master"),"rb");
     char *linhaDepoisValidacao = calloc(1, sizeof(1));
-    char *buffer = calloc(1, 41);
     char c[2] = "\0";
     bool iniciaColeta = false;
+
+    unsigned int indiceHash = 0;
     while ((c[0] = fgetc(file)) != EOF){
-        if(iniciaColeta == true){
-            if(linhaDepoisValidacao[strlen(linhaDepoisValidacao) - 2] != '\0')
-                maisMemoria(&linhaDepoisValidacao);
-            strcat(linhaDepoisValidacao, c);
-            if(c[0] == '\n') break;
-        } else {
-            if (strcmp(buffer, hash) == 0) {
-                iniciaColeta = true;
-            } else {
-                if(c[0] == ' ' || c[0] == '\n'){
-                    free(buffer);
-                    buffer = calloc(1, 41);
-                    continue;
+        if(c[0] == hash[indiceHash]){
+            if(iniciaColeta == false){
+                if(strlen(hash) == indiceHash){
+                    iniciaColeta = true;
+                    indiceHash++;
+                } else {
+                    indiceHash = 0;
                 }
-                if (strlen(buffer) == 41) {
-                    free(buffer);
-                    buffer = calloc(1, 41);
-                }
-                strcat(buffer, c);
             }
-        }
+        }else{
+            if(c[0] != '\n')
+                strcat(linhaDepoisValidacao, c);
+            else
+                break;
+        } 
     }
     printf("%s\n", linhaDepoisValidacao);
     fclose(file);
