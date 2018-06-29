@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Ronan/Desktop/UltimoComentarioGit/main.c" "C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/CMakeFiles/UltimoComentarioGit.dir/main.c.obj"
+  "/home/ronanrosa/projetos/UltimoComentarioGit/main.c" "/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/CMakeFiles/UltimoComentarioGit.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

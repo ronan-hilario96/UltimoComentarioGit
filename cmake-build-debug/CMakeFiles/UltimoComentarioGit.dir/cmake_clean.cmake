@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UltimoComentarioGit.dir/main.c.obj"
+  "CMakeFiles/UltimoComentarioGit.dir/main.c.o"
   "UltimoComentarioGit.pdb"
-  "UltimoComentarioGit.exe"
-  "UltimoComentarioGit.exe.manifest"
-  "libUltimoComentarioGit.dll.a"
+  "UltimoComentarioGit"
 )
 
 # Per-language clean rules from dependency scanning.

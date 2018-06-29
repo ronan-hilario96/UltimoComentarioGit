@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Ronan/Desktop/UltimoComentarioGit/main.c
+/home/ronanrosa/projetos/UltimoComentarioGit/main.c
 stdio.h
 -
 stdlib.h

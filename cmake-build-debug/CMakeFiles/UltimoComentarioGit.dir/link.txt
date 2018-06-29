@@ -1,3 +1,1 @@
-C:\Users\Ronan\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.5281.33\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\UltimoComentarioGit.dir/objects.a
-C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\UltimoComentarioGit.dir/objects.a @CMakeFiles\UltimoComentarioGit.dir\objects1.rsp
-C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\UltimoComentarioGit.dir/objects.a -Wl,--no-whole-archive  -o UltimoComentarioGit.exe -Wl,--out-implib,libUltimoComentarioGit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\UltimoComentarioGit.dir\linklibs.rsp
+/usr/bin/gcc -g   CMakeFiles/UltimoComentarioGit.dir/main.c.o  -o UltimoComentarioGit 

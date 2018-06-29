@@ -8,78 +8,80 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug"/>
+				<Option working_dir="/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="UltimoComentarioGit">
-				<Option output="C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/UltimoComentarioGit.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 UltimoComentarioGit"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="UltimoComentarioGit/fast">
-				<Option output="C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/UltimoComentarioGit.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include"/>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"/>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"/>
-					<Add directory="c:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 UltimoComentarioGit/fast"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug"/>
+				<Option working_dir="/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UltimoComentarioGit">
+				<Option output="/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/UltimoComentarioGit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 UltimoComentarioGit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UltimoComentarioGit/fast">
+				<Option output="/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/UltimoComentarioGit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 UltimoComentarioGit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Ronan/Desktop/UltimoComentarioGit/main.c">
+		<Unit filename="/home/ronanrosa/projetos/UltimoComentarioGit/main.c">
 			<Option target="UltimoComentarioGit"/>
 		</Unit>
-		<Unit filename="C:/Users/Ronan/Desktop/UltimoComentarioGit/CMakeLists.txt">
+		<Unit filename="/home/ronanrosa/projetos/UltimoComentarioGit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

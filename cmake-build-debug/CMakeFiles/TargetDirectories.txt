@@ -1,3 +1,3 @@
-C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/CMakeFiles/UltimoComentarioGit.dir
-C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug/CMakeFiles/UltimoComentarioGit.dir

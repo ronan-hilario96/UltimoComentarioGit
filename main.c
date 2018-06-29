@@ -14,28 +14,33 @@ int main(const unsigned int argc, const char **argv)
     char *master = leituraRapida(concat(localGit, "HEAD"), "ref: %s");
     char *hash = leituraRapida(concat(localGit, master), "%s");
 
-    FILE *file = fopen(concat(localGit, "logs/refs/heads/master"),"rb");
-    char *linhaDepoisValidacao = calloc(1, sizeof(1));
+    FILE *file = fopen(concat(localGit, "logs/HEAD"),"rb");
+    char *linhaDepoisValidacao = calloc(1, 10);
     char c[2] = "\0";
     bool iniciaColeta = false;
-
     unsigned int indiceHash = 0;
     while ((c[0] = fgetc(file)) != EOF){
-        if(c[0] == hash[indiceHash]){
-            if(iniciaColeta == false){
-                if(strlen(hash) == indiceHash){
+        if(iniciaColeta == false){
+            if(c[0] == hash[indiceHash]){
+                if(strlen(hash)-1 == indiceHash){
                     iniciaColeta = true;
-                    indiceHash++;
-                } else {
-                    indiceHash = 0;
                 }
+                indiceHash++;
+            }else{
+                indiceHash = 0;
             }
-        }else{
-            if(c[0] != '\n')
+        } else {
+            if(c[0] == '.')
+                printf("espera");
+            if(c[0] != '\n'){
+                if(strlen(linhaDepoisValidacao) > 1 &&
+                   linhaDepoisValidacao[strlen(linhaDepoisValidacao) - 2] != '\0')
+                    maisMemoria(&linhaDepoisValidacao);
                 strcat(linhaDepoisValidacao, c);
+            }
             else
                 break;
-        } 
+        }
     }
     printf("%s\n", linhaDepoisValidacao);
     fclose(file);
@@ -50,9 +55,10 @@ char* concat(const char *s1, const char *s2)
     return result;
 }
 void maisMemoria(char **cadeiaCaracteres){
-    int auxiliar = calloc(1, strlen(*cadeiaCaracteres));
+    char *auxiliar = calloc(1, 1+strlen(*cadeiaCaracteres));
     strcpy(auxiliar, *cadeiaCaracteres);
-    *cadeiaCaracteres = calloc(1, 2 + strlen(*cadeiaCaracteres));
+    free(*cadeiaCaracteres);
+    *cadeiaCaracteres = calloc(1, 2+strlen(auxiliar));
     strcpy(*cadeiaCaracteres, auxiliar);
     free(auxiliar);
 }

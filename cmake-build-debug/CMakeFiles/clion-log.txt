@@ -1,11 +1,17 @@
-C:\Users\Ronan\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.5281.33\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Ronan\Desktop\UltimoComentarioGit
--- The C compiler identification is GNU 4.8.1
--- Check for working C compiler: C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe
--- Check for working C compiler: C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe -- works
+/home/ronanrosa/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/ronanrosa/projetos/UltimoComentarioGit
+-- The C compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Ronan/Desktop/UltimoComentarioGit/cmake-build-debug
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+-- Build files have been written to: /home/ronanrosa/projetos/UltimoComentarioGit/cmake-build-debug
