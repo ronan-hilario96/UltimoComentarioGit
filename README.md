@@ -1,0 +1,1 @@
+UltimoComentarioGit.exe "local do .git\"
